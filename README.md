@@ -48,7 +48,7 @@ Note: Emil used the vector output of InceptionV3 as a fusion layer, whereas I us
 <p>(1) http://cs231n.stanford.edu/reports/2017/pdfs/302.pdf</p>
 <p>(2) https://github.com/eriklindernoren/Keras-GAN/blob/master/dcgan/dcgan.py</p>
 
-Originally introduced by Ian Goodfellow in 2014, GAN is still popular deep-learning algorithm used for various purpuses. Recently, I've read a paper (1) that used DCGAN (GAN with CNN architecture) for image colorization, so I also decided to apply the algorithm for my anime face colorization. Python code for GAN I've wrote is originally from Erik Lindernoren's github (2).
+Originally introduced by Ian Goodfellow in 2014, GAN is still popular deep-learning algorithm used for various purpuses. Recently, I've read a paper (1) that used DCGAN (GAN with CNN architecture) for image colorization, so I also decided to apply the algorithm for my anime face colorization. Python code for GAN I've wrote is originally from Erik Linder-Norén's github (2).
 
 ![alt text](https://gluon.mxnet.io/_images/dcgan.png)
 (Image from https://gluon.mxnet.io/chapter14_generative-adversarial-networks/dcgan.html)
@@ -96,7 +96,7 @@ danbooru image dataset은 너무 커서 moeimouto-faces.zip dataset 만 사용�
 ### Alpha Version algorithm by Emil Wallner 
 <p>(1) https://blog.floydhub.com/colorizing-b-w-photos-with-neural-networks/</p> 
 
-Alpha 버전 알고리즘은 간단한 CNN encoder-decoder 형태의 알고리즘으로써 Emil Wallner 라는 분이 이미지 색칠을 위해 사용하신 알고리즘입니다. 알고리즘의 대강 구조는 아래 그림과 같고, 자세한 설명 및 코드는 위 링크를 참조하시면 되겠습니다. 
+Alpha 버전 알고리즘은 간단한 CNN encoder-decoder 형태의 알고리즘으로써 Emil Wallner라는 분이 이미지 색칠을 위해 사용하신 알고리즘입니다. 알고리즘의 대강 구조는 아래 그림과 같고, 자세한 설명 및 코드는 위 링크를 참조하시면 되겠습니다. 
 
 ![alt text](https://blog.floydhub.com/content/images/2018/06/image_scaling_proces.png)
 
@@ -123,7 +123,7 @@ Note: Emil은 fusion layer를 도출하기 위한 classification algorithm으로
 <p>(1) http://cs231n.stanford.edu/reports/2017/pdfs/302.pdf</p>
 <p>(2) https://github.com/eriklindernoren/Keras-GAN/blob/master/dcgan/dcgan.py</p>
 
-2014년에 Ian Goodfellow에 의해 처음 소개된 이후로, GAN은 다양한 분야에서 많이 사랑받고 있는 딥러닝 알고리즘입니다. 최근에 읽은 (1) 논문에서는 이 GAN 알고리즘을 이용한 colorization algorithm을 구현했었습니다. 때문에, 저도 한번 도전해보고자 하는 마음으로 CNN 구조가 포함된 DCGAN을 이용하여 colorization algorithm을 구현해보고자 하였습니다. 가 작성한 Keras GAN 코드는 Erik Lindernoren의 Github을 참조하였습니다 (2).
+2014년에 Ian Goodfellow에 의해 처음 소개된 이후로, GAN은 다양한 분야에서 많이 사랑받고 있는 딥러닝 알고리즘입니다. 최근에 읽은 (1) 논문에서는 이 GAN 알고리즘을 이용한 colorization algorithm을 구현했었습니다. 때문에, 저도 한번 도전해보고자 하는 마음으로 CNN 구조가 포함된 DCGAN을 이용하여 colorization algorithm을 구현해보고자 하였습니다. 가 작성한 Keras GAN 코드는 Erik Linder-Norén님의 Github을 참조하였습니다 (2).
 
 ![alt text](https://gluon.mxnet.io/_images/dcgan.png)
 (이미지 출처: https://gluon.mxnet.io/chapter14_generative-adversarial-networks/dcgan.html)
