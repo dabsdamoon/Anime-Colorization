@@ -1,3 +1,10 @@
+### Purpose
+
+<p> This is an implementation of WGAN with weight clipping. </p>
+<p> For more information, visit: </p>
+<p> https://arxiv.org/abs/1701.07875 </p>
+<p> https://github.com/eriklindernoren/Keras-GAN/tree/master/wgan </p>
+
 ### Problems to be considered
 
 Notice that the result of WGAN is not satisfying compared to GAN result.
